@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let Roll_No = prompt("Enter Roll No. : ");
+        let Name = prompt("Enter name : ");
+        var English = parseInt(prompt("Enter English : "));
+        var Chemistry = parseInt(prompt("Enter Chemistry : "));
+        var Maths = parseInt(prompt("Enter Maths : "));
+        var Physics = parseInt(prompt("Enter Physics : "));
+        var Total = English + Chemistry + Maths + Physics;
+    </script>
+
+    <style>
+        table{
+            margin: auto;
+        }
+        td{padding: 20px;}
+    </style>
+
+</head>
+<body>
+    
+    <table border="1">
+        <tr>
+            <td>Roll_No : </td> <td>Name: </td>   <td>English : </td> <td>Chemistry: </td> <td>Maths : </td> <td>Physics : </td>  <td>Total : </td> 
+        </tr>
+        <tr>
+             <td><script>document.write(Roll_No);</script></td>
+             <td><script>document.write(Name);</script></td>
+             <td><script>document.write(English);</script></td>
+             <td><script>document.write(Chemistry);</script></td>
+             <td><script>document.write(Maths);</script></td>
+             <td><script>document.write(Physics);</script></td>
+             <td><script>document.write(Total);</script></td>
+        </tr>
+    
+    </table>
+    
+</body>
+</html>
